@@ -1,0 +1,174 @@
+.cardSection {
+  background: #2b2b2b;
+  border-radius: 12px;
+  width: 368px;
+  height: 617.91px;
+}
+
+.topSection {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 360px;
+  height: 74px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* .badgeSection {
+
+} */
+
+.badge {
+  width: 27.1px;
+  height: 29.13px;
+}
+
+.gameTitle {
+  width: 79px;
+  height: 29.35px;
+  left: 167px;
+  top: 279px;
+  background: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(4px);
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  border-radius: 40px;
+}
+
+.gameImage {
+  width: 69.28px;
+  height: 21.07px;
+  left: 171.86px;
+  top: 283px;
+  mix-blend-mode: screen;
+  backdrop-filter: blur(4px);
+  /* Note: backdrop-filter has minimal browser support */
+  border-radius: 12px;
+}
+.cardType {
+  color: #6c6c6c;
+}
+.typeTitle {
+  width: 68px;
+  height: 32px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 32px;
+  color: #6c6c6c;
+}
+
+/* middlesection */
+
+.reviewSection {
+  display: flex;
+  flex-direction: column;
+  padding: 5px 20px 5px 20px;
+  justify-content: center;
+  height: 100px;
+  max-width: 360px;
+}
+
+.reviewHeading {
+  /* position: absolute; */
+  width: 287px;
+  height: 32px;
+  /* font-family: 'Raleway'; */
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  /* line-height: 32px; */
+  color: #ffffff;
+}
+
+.reviewDescription {
+  width: 320px;
+  height: 60px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #707070;
+}
+
+.reviewTimestamp {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 40px 5px 20px;
+  color: #707070;
+}
+
+.timeStamp {
+  /* width: 54px; */
+  height: 32px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 32px;
+}
+
+/* Bottom--section */
+
+.bottomSection {
+  display: flex;
+  flex-direction: column;
+}
+.feedCard {
+  position: relative;
+  overflow: visible;
+  width: 368px;
+}
+
+.userInfo {
+  display: flex;
+  align-items: center;
+  /* padding: 0 10px 0 10px; */
+  justify-content: center;
+  width: 163px;
+  height: 43px;
+
+  background: #393939;
+
+  border-radius: 21.5px;
+  position: absolute;
+  top: -18px;
+  left: 100px;
+}
+
+.userProfile {
+  width: 29.87px;
+  height: 31px;
+  border: 0.1px solid #ffffff;
+  border-radius: 400px;
+}
+
+.userName {
+  width: 101px;
+  height: 32px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 32px;
+  margin-left: 5px;
+  color: #a4a4a4;
+}
+
+.feedImage {
+  width: 368px;
+  height: 295px;
+}
+
+.iconSection {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 15px 0 15px;
+  align-items: center;
+}
+
+.iconButton {
+  background: #2b2b2b;
+
+  border: none;
+  color: rgba(255, 255, 255, 0.17);
+}
